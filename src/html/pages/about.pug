@@ -1,0 +1,59 @@
+extends ../templates/base
+
+append sharedVars
+  - var pageUrl = '/about.html';
+
+block title
+  | About page
+
+block main
+  section.section-intro.back-img(style="background-image: url('src/imgs/sample-img-1.jpg')")
+    .container
+      .content-wrap
+        h3.title
+          | About
+  section.section-features
+    .container
+      ul.features-list
+        li.feature-item
+          .content-col
+            .title
+              | Lorem ipsum
+            .desc
+              p
+                | Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                | laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+                | beatae vitae dicta sunt explicabo.
+              p
+                | Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                | odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+          .img-col
+            .img-wrap.back-img(style="background-image: url('src/imgs/sample-img-2.jpg')")
+        li.feature-item
+          .content-col
+            .title
+              | Lorem ipsum
+            .desc
+              p
+                | Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                | laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+                | beatae vitae dicta sunt explicabo.
+              p
+                | Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                | odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+          .img-col
+            .img-wrap.back-img(style="background-image: url('src/imgs/sample-img-3.jpg')")
+        li.feature-item
+          .content-col
+            .title
+              | Lorem ipsum
+            .desc
+              p
+                | Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                | laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+                | beatae vitae dicta sunt explicabo.
+              p
+                | Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                | odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+          .img-col
+            .img-wrap.back-img(style="background-image: url('src/imgs/sample-img-4.jpg')")
